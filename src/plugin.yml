@@ -1,0 +1,8 @@
+main: net.mcdecimation.decimationstaff.Main
+name: DecimationStaff
+version: 1.0
+author: iAndree
+description: Decimation Help Plugin
+commands:
+    help:
+        usage: <command> [Arguments]

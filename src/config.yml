@@ -1,0 +1,37 @@
+#Decimation Help developed by André
+#
+#v1.0
+#
+#This configuration is fully customizable
+
+subCommand1: deci
+subCommand2: discord
+
+subCommand1info: "§7Displays all Decimation Commands"
+subCommand2info: "§7Displays all Discord Commands"
+
+
+##Sub Command 1 Config
+
+subCommand1title: "§cDecimation Help"
+subCommand1line1: "§7Line 1"
+subCommand1line2: "§7Line 2"
+
+
+##Sub Command 2 Config
+
+subCommand2title: "§cDiscord Help"
+subCommand2line1: "§7Line 1"
+subCommand2line2: "§7Line 2"
+
+
+##Reload Config
+
+reloadsubCommand: reload 
+##This will be, /help <reloadsubCommand>
+
+reloadPermission: decimationstaff.help.reload
+##The permission needed to reload the plugin
+
+reloadOutputSuccess: "§7Decimation Help config §a§osuccessfully§7 reloaded" 
+##This is the output that you get in the chat when the plugin has successfully been reloaded
